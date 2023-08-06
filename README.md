@@ -1,0 +1,2 @@
+# janpicek.cz
+My website
