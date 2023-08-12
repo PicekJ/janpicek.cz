@@ -1,0 +1,91 @@
+baseURL: "https://janpicek.cz/"
+title: "janpicek"
+paginate: 5
+theme: PaperMod
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    images: ["images/me.jpg"]
+    enableEmoji: true
+    hideSummary: true
+
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Jan Picek's website."
+
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        enabled: false
+        title: Jan Picek
+        imageUrl: "images/me.jpg"
+        imageTitle: my image
+        imageWidth: 250
+        imageHeight: 250
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "welcome to my website 👋"
+        Content: >
+            Hi there! My name is Jan Picek, nice to meet you.
+            
+            - You will find here texts about data, films, books, philosophy or any other area I am interested in.
+
+            - I find writing as a tool to organize my thoughts.
+
+    # socialIcons:
+    #     - name: github
+    #       url: "https://github.com/adityatelange/hugo-PaperMod"
+    #     - name: goodreads
+    #       url: "https://ko-fi.com/adityatelange"
+    #     - name: Rss
+    #       url: "index.xml"
+
+    label:
+        text: "janpicek"
+        icon: "/images/skull.gif"
+        iconHeight: 55
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+menu:
+  main:
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+  
+assets: 
+  disableHLJS: true 
+  favicon: "/favicon.ico"
+  favicon16x16: "/favicon.ico"
+  favicon32x32: "/favicon.ico"
+  apple_touch_icon: "/favicon.ico"
+  safari_pinned_tab: "/favicon.ico"

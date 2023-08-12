@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jan Picek Website</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jan Picek Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Sun, 06 Aug 2023 20:36:23 +0200</pubDate>
+      
+      <guid>http://localhost:1313/test/</guid>
+      <description>fddsfsdfsf</description>
+    </item>
+    
+    <item>
+      <title>About_me</title>
+      <link>http://localhost:1313/about_me/</link>
+      <pubDate>Sun, 06 Aug 2023 20:29:43 +0200</pubDate>
+      
+      <guid>http://localhost:1313/about_me/</guid>
+      <description>My name is Jan Picek and I’m a student of mathematical informatics at Masaryk University in Brno, Czech Republic, but my home is in České Budějovice.
+I chose to study computer science, because my dad has engineer degree in cybernetics and he&amp;rsquo;s been a big influence. I guess that computer science is pretty much in our whole family. Even my grandfather worked as data analyst (he used to use punched cards to code which I find quite amazing) and my brother is studying for Master&amp;rsquo;s degree in bioinformatics at Charles University.</description>
+    </item>
+    
+  </channel>
+</rss>
