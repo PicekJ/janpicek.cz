@@ -5,7 +5,7 @@ tags: ["personal", "en"]
 ---
 
 <center>
-    <img src="/images/me_cropped_transparent.png" width=500px>
+    <img src="/~xpicek/images/me_cropped_transparent.png" width=500px>
 </center>
 
 My name is Jan Picek and I’m a student of **mathematical informatics** at **Masaryk University** in **Brno**, Czech Republic, but my home is in České Budějovice.

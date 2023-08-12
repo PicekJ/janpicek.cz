@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cz on janpicek</title>
+    <link>https://www.fi.muni.cz/~xpicek/tags/cz/</link>
+    <description>Recent content in cz on janpicek</description>
+    <image>
+      <title>janpicek</title>
+      <url>https://www.fi.muni.cz/~xpicek/images/me.jpg</url>
+      <link>https://www.fi.muni.cz/~xpicek/images/me.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Aug 2023 19:09:42 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/tags/cz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kritika knihy Big Data, Big Dupe</title>
+      <link>https://www.fi.muni.cz/~xpicek/posts/kritika-knihy-big-data-big-dupe/</link>
+      <pubDate>Sat, 12 Aug 2023 19:09:42 +0200</pubDate>
+      
+      <guid>https://www.fi.muni.cz/~xpicek/posts/kritika-knihy-big-data-big-dupe/</guid>
+      <description>Big Data, Big Dupe je krátká kniha o nesmyslnosti pojmu Big Data. Autor Stephen Few zde kritizuje vágní definici pojmu, a tedy fakt, že si každý představí pod pojmem něco trochu jiného a nejednoznačnost rozlišení mezi daty normálními a daty &amp;ldquo;velkými&amp;rdquo;. V této kritice analyzujeme text knihy, rozebereme argumenty autora knihy a povedeme úvahu nad tím, jestli má smysl pojem používat.
+Okamžitě při čtení prvních odstavců si můžeme všimnout absence zdrojů odkud autor čerpá, čímž tvrzení jsou nepodložená a často ani nejsou vysvětlená, proč autor věří, že jsou pravdivá.</description>
+    </item>
+    
+  </channel>
+</rss>

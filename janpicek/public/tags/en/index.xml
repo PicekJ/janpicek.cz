@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>en on janpicek</title>
+    <link>https://www.fi.muni.cz/~xpicek/tags/en/</link>
+    <description>Recent content in en on janpicek</description>
+    <image>
+      <title>janpicek</title>
+      <url>https://www.fi.muni.cz/~xpicek/images/me.jpg</url>
+      <link>https://www.fi.muni.cz/~xpicek/images/me.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Aug 2023 16:21:59 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/tags/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://www.fi.muni.cz/~xpicek/posts/about-me/</link>
+      <pubDate>Sat, 12 Aug 2023 16:21:59 +0200</pubDate>
+      
+      <guid>https://www.fi.muni.cz/~xpicek/posts/about-me/</guid>
+      <description>My name is Jan Picek and I’m a student of mathematical informatics at Masaryk University in Brno, Czech Republic, but my home is in České Budějovice.
+I chose to study computer science, because my dad has engineer degree in cybernetics and he&amp;rsquo;s been a big influence. I guess that computer science is pretty much in our whole family. Even my grandfather worked as data analyst (he used to use punched cards to code which I find quite amazing) and my brother is studying for Master&amp;rsquo;s degree in bioinformatics at Charles University.</description>
+    </item>
+    
+  </channel>
+</rss>

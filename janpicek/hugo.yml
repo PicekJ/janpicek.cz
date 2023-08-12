@@ -1,7 +1,8 @@
-baseURL: "https://janpicek.cz/"
+baseURL: "https://www.fi.muni.cz/~xpicek/"
 title: "janpicek"
 paginate: 5
 theme: PaperMod
+# canonifyurls: true
 
 outputs:
     home:
