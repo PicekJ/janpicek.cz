@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Rozbor knihy Big Data, Big Dupe | janpicek</title>
+<meta name="keywords" content="data, kniha, rozbor, cz">
+<meta name="description" content="Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/">
+<link crossorigin="anonymous" href="/~xpicek/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css" integrity="sha256-v1&#43;fc88XMR1SztvNqCySLpGy9WbYioWtn1taCLWGvV8=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/~xpicek/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://www.fi.muni.cz/~xpicek/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.fi.muni.cz/~xpicek/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.fi.muni.cz/~xpicek/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.fi.muni.cz/~xpicek/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.fi.muni.cz/~xpicek/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Rozbor knihy Big Data, Big Dupe" />
+<meta property="og:description" content="Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/" /><meta property="og:image" content="https://www.fi.muni.cz/~xpicek/images/me.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-13T23:35:20+02:00" />
+<meta property="article:modified_time" content="2023-08-13T23:35:20+02:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.fi.muni.cz/~xpicek/images/me.jpg"/>
+
+<meta name="twitter:title" content="Rozbor knihy Big Data, Big Dupe"/>
+<meta name="twitter:description" content="Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.fi.muni.cz/~xpicek/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Rozbor knihy Big Data, Big Dupe",
+      "item": "https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rozbor knihy Big Data, Big Dupe",
+  "name": "Rozbor knihy Big Data, Big Dupe",
+  "description": "Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící.",
+  "keywords": [
+    "data", "kniha", "rozbor", "cz"
+  ],
+  "articleBody": "Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící.\nOkamžitě při čtení prvních odstavců si můžeme všimnout absence zdrojů odkud autor čerpá informace. Mnohá tvrzení jsou neopodstatněná a nevysvětlená, proč autor věří, že jsou správná. Například věta “There are almost as many definitions of Big Data as there are people with opinions.” (str. 7) působí jako autorův dojem, nikoli jako výsledek nějakého výzkumu. Z počtu definic a názorů lidí se zdá, že nějaký vlastní průzkum autor vedl, je ale nejasné jakým způsobem a jestli nebyl ovlivněn již utvořeným negativním postojem k problematice.\nAutor uvádí dva hlavní důvody, proč považuje pojem Big Data za problematický:\nneexistuje žádná společně přijímaná definice, není jednoznačná hranice, mezi klasickými a “velkými” daty. Autor si dává záležet, aby argumenty dobře vysvětlil, nacházíme zde ale nepříjemný trend. Autor se věnuje především negativní kritice a nezmiňuje pozitivní stránky věci, což působí jako manipulace se čtenářem. Těžko se věří, že ho žádné kladné aspekty, které jistě existují, nenapadly a spíše to vypadá, že chce jednostranně odsoudit pojem.\nNapříklad u prvního argumentu může být nejednoznačnost pojmu výhodou, protože různé obory mohou pojem definovat tak, jak je pro ně užitečný, což je běžný jev v jazyce i ve vědě (The advantage of ambiguity | MIT News | Massachusetts Institute of Technology).\nU druhého argumentu tvrdí, že kvůli absenci jasné hranice mezi klasickými a “velkými” daty nemá smysl pojem používat. Tento argument je obtížné vyvrátit, ale můžeme se nad ním zamyslet z jiného pohledu. V oblasti informatiky se za posledních padesát let objevila a zase zmizela řada termínů, konceptů a technologií. Často jejich zánik souvisí s technologickým pokrokem. Proto se nabízí otázka, zda má smysl v tomto odvětví definovat pojmy absolutně. Není lepší mít pojem definovaný relativně (a tedy i trochu vágně), který dokáže přežít i změny technologií a obrovské nárůsty kapacit?\nAutor v průběhu knihy argumentuje, že pokud až nyní vznikl nový pojem, tedy Big Data, tak dříve neexistovala věc, kterou tento pojem popisuje. Což je zřejmě liché uvažování, stále stále je potřeba k vytváření nových pojmů. Dříve nemuselo být relevantní rozlišovat mezi určitými aspekty dat, ale není třeba už ano. Pokud si např. vědec nadefinuje pojem Big Data, aby mohl rozlišit mezi klasickými daty a třeba daty, které čerpá ve velkém množství z prodejů, měli bychom říkat, aby tento pojem nepoužíval? Autor pojednává, že by se měl každý snažit data zmenšovat a čerpat pouze ty, které mají velkou hodnotu. To jistě dává smysl pro společnost, která data využívá, maximalizovat užitečnost a tedy zisk, je ale nutné tuto logiku aplikovat obecně a s tím tvrdit, že tento pojem není užitečný či dokonce ani reálný?\nZatím jsme psali pouze o existenci termínu Big Data a jestli tento pojem má smysl používat. Tomu se autor věnuje přibližně polovinu knihy. Našli jsme zde více problematických míst, kde jsou diskutabilní argumenty. V druhé polovině knihy, ale jsou argumenty lépe opodstatněné a ani nepůsobí jednostranně či manipulativně. Zde se těžko nesouhlasí.\nJak autor správně pojednává, kvůli nejednoznačnosti definice, může být pojem využíván jako černá skříňka, která vše dokáže, ale nikdo jasně nevysvětlí, co a jak dělá. Nebo pokud technologické firmy nabízejí své služby v oblasti Big Data s tvrzením, že je to něco nového, tak také samozřejmě nastává problém.\nV kapitole o soukromí autor pojednává, jak Big Data mohou být využívána a zneužívána k ukládání a zpracovávání osobních údajů. Dostáváme se zde do úvah, které působí velmi dystopicky, ale přitom čím dál více reálně.\nKniha byla čtivá a velmi přínosná. V první polovině kolísala argumentace, ale druhá polovina jasně poukazovala na problémy a nebezpečí spjaté s fenoménem Big Data (tedy nikoliv čistě s pojmem jako je to v první polovině). Také je zde poukázáno, jak z nejasných ale chytlavých pojmů můžou vydělávat technologické firmy a jiné subjekty. Autor rozebírá i rady, jak analyzovat data a hledat v nich užitečné informace.\n",
+  "wordCount" : "713",
+  "inLanguage": "en",
+  "datePublished": "2023-08-13T23:35:20+02:00",
+  "dateModified": "2023-08-13T23:35:20+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "janpicek",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.fi.muni.cz/~xpicek/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.fi.muni.cz/~xpicek/" accesskey="h" title="janpicek (Alt + H)">
+                <img src="https://www.fi.muni.cz/images/skull.gif" alt="" aria-label="logo"
+                    height="55">janpicek</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.fi.muni.cz/~xpicek/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Rozbor knihy Big Data, Big Dupe
+    </h1>
+    <div class="post-meta"><span title='2023-08-13 23:35:20 +0200 CEST'>August 13, 2023</span>
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící.</p>
+<p>Okamžitě při čtení prvních odstavců si můžeme všimnout absence zdrojů odkud autor čerpá informace. Mnohá tvrzení jsou neopodstatněná a nevysvětlená, proč autor věří, že jsou správná. Například věta &ldquo;There are almost as many definitions of Big Data as there are people with opinions.&rdquo; (str. 7) působí jako autorův dojem, nikoli jako výsledek nějakého výzkumu. Z počtu definic a názorů lidí se zdá, že nějaký vlastní průzkum autor vedl, je ale nejasné jakým způsobem a jestli nebyl ovlivněn již utvořeným negativním postojem k problematice.</p>
+<p>Autor uvádí dva hlavní důvody, proč považuje pojem Big Data za problematický:</p>
+<ol>
+<li>neexistuje žádná společně přijímaná definice,</li>
+<li>není jednoznačná hranice, mezi klasickými a &ldquo;velkými&rdquo; daty.</li>
+</ol>
+<p>Autor si dává záležet, aby argumenty dobře vysvětlil, nacházíme zde ale nepříjemný trend. Autor se věnuje především negativní kritice a nezmiňuje pozitivní stránky věci, což působí jako manipulace se čtenářem. Těžko se věří, že ho žádné kladné aspekty, které jistě existují, nenapadly a spíše to vypadá, že chce jednostranně odsoudit pojem.</p>
+<p>Například u prvního argumentu může být nejednoznačnost pojmu výhodou, protože různé obory mohou pojem definovat tak, jak je pro ně užitečný, což je běžný jev v jazyce i ve vědě (<a href="https://news.mit.edu/2012/ambiguity-in-language-0119">The advantage of ambiguity | MIT News | Massachusetts Institute of Technology</a>).</p>
+<p>U druhého argumentu tvrdí, že kvůli absenci jasné hranice mezi klasickými a &ldquo;velkými&rdquo; daty nemá smysl pojem používat. Tento argument je obtížné vyvrátit, ale můžeme se nad ním zamyslet z jiného pohledu. V oblasti informatiky se za posledních padesát let objevila a zase zmizela řada termínů, konceptů a technologií. Často jejich zánik souvisí s technologickým pokrokem. Proto se nabízí otázka, zda má smysl v tomto odvětví definovat pojmy absolutně. Není lepší mít pojem definovaný relativně (a tedy i trochu vágně), který dokáže přežít i změny technologií a obrovské nárůsty kapacit?</p>
+<p>Autor v průběhu knihy argumentuje, že pokud až nyní vznikl nový pojem, tedy Big Data, tak dříve neexistovala věc, kterou tento pojem popisuje. Což je zřejmě liché uvažování, stále stále je potřeba k vytváření nových pojmů. Dříve nemuselo být relevantní rozlišovat mezi určitými aspekty dat, ale není třeba už ano. Pokud si např. vědec nadefinuje pojem Big Data, aby mohl rozlišit mezi klasickými daty a třeba daty, které čerpá ve velkém množství z prodejů, měli bychom říkat, aby tento pojem nepoužíval? Autor pojednává, že by se měl každý snažit data zmenšovat a čerpat pouze ty, které mají velkou hodnotu. To jistě dává smysl pro společnost, která data využívá, maximalizovat užitečnost a tedy zisk, je ale nutné tuto logiku aplikovat obecně a s tím tvrdit, že tento pojem není užitečný či dokonce ani reálný?</p>
+<p>Zatím jsme psali pouze o existenci termínu Big Data a jestli tento pojem má smysl používat. Tomu se autor věnuje přibližně polovinu knihy. Našli jsme zde více problematických míst, kde jsou diskutabilní argumenty. V druhé polovině knihy, ale jsou argumenty lépe opodstatněné a ani nepůsobí jednostranně či manipulativně. Zde se těžko nesouhlasí.</p>
+<p>Jak autor správně pojednává, kvůli nejednoznačnosti definice, může být pojem využíván jako černá skříňka, která vše dokáže, ale nikdo jasně nevysvětlí, co a jak dělá. Nebo pokud technologické firmy nabízejí své služby v oblasti Big Data s tvrzením, že je to něco nového, tak také samozřejmě nastává problém.</p>
+<p>V kapitole o soukromí autor pojednává, jak Big Data mohou být využívána a zneužívána k ukládání a zpracovávání osobních údajů. Dostáváme se zde do úvah, které působí velmi dystopicky, ale přitom čím dál více reálně.</p>
+<p>Kniha byla čtivá a velmi přínosná. V první polovině kolísala argumentace, ale druhá polovina jasně poukazovala na problémy a nebezpečí spjaté s fenoménem Big Data (tedy nikoliv čistě s pojmem jako je to v první polovině). Také je zde poukázáno, jak z nejasných ale chytlavých pojmů můžou vydělávat technologické firmy a jiné subjekty. Autor rozebírá i rady, jak analyzovat data a hledat v nich užitečné informace.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.fi.muni.cz/~xpicek/tags/data/">data</a></li>
+      <li><a href="https://www.fi.muni.cz/~xpicek/tags/kniha/">kniha</a></li>
+      <li><a href="https://www.fi.muni.cz/~xpicek/tags/rozbor/">rozbor</a></li>
+      <li><a href="https://www.fi.muni.cz/~xpicek/tags/cz/">cz</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://www.fi.muni.cz/~xpicek/">janpicek</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on janpicek</title>
-    <link>https://www.fi.muni.cz/~xpicek/posts/</link>
-    <description>Recent content in Posts on janpicek</description>
+    <title>kniha on janpicek</title>
+    <link>https://www.fi.muni.cz/~xpicek/tags/kniha/</link>
+    <description>Recent content in kniha on janpicek</description>
     <image>
       <title>janpicek</title>
       <url>https://www.fi.muni.cz/~xpicek/images/me.jpg</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Aug 2023 23:35:20 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Aug 2023 23:35:20 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/tags/kniha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rozbor knihy Big Data, Big Dupe</title>
       <link>https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/</link>
@@ -19,16 +19,6 @@
       
       <guid>https://www.fi.muni.cz/~xpicek/posts/rozbor-knihy-big-data-big-dupe/</guid>
       <description>Big Data, Big Dupe je název knihy, která se zaměřuje na problémy spojené s používáním tohoto termínu. Autor Stephen Few tvrdí, že Big Data je jen marketingový trik, který zamlžuje skutečnou podstatu datové analýzy. Podle něj neexistuje žádný objektivní způsob, jak určit, co jsou Big Data a co ne, a že neexistuje hranice velikost dat, která by byla rozhodujícím faktorem pro jejich využití. V tomto rozboru se podíváme na hlavní body knihy, zhodnotíme její silné a slabé stránky a zvážíme, zda je termín Big Data užitečný nebo zavádějící.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://www.fi.muni.cz/~xpicek/posts/about-me/</link>
-      <pubDate>Sat, 12 Aug 2023 16:21:59 +0200</pubDate>
-      
-      <guid>https://www.fi.muni.cz/~xpicek/posts/about-me/</guid>
-      <description>My name is Jan Picek and I’m a student of mathematical informatics at Masaryk University in Brno, Czech Republic, but my home is in České Budějovice.
-I chose to study computer science, because my dad has engineer degree in cybernetics and he&amp;rsquo;s been a big influence. I guess that computer science is pretty much in our whole family. Even my grandfather worked as data analyst (he used to use punched cards to code which I find quite amazing) and my brother is studying for Master&amp;rsquo;s degree in bioinformatics at Charles University.</description>
     </item>
     
   </channel>

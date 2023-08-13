@@ -11,20 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Aug 2023 19:09:42 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>book</title>
-      <link>https://www.fi.muni.cz/~xpicek/tags/book/</link>
-      <pubDate>Sat, 12 Aug 2023 19:09:42 +0200</pubDate>
-      
-      <guid>https://www.fi.muni.cz/~xpicek/tags/book/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 13 Aug 2023 23:35:20 +0200</lastBuildDate><atom:link href="https://www.fi.muni.cz/~xpicek/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cz</title>
       <link>https://www.fi.muni.cz/~xpicek/tags/cz/</link>
-      <pubDate>Sat, 12 Aug 2023 19:09:42 +0200</pubDate>
+      <pubDate>Sun, 13 Aug 2023 23:35:20 +0200</pubDate>
       
       <guid>https://www.fi.muni.cz/~xpicek/tags/cz/</guid>
       <description></description>
@@ -33,9 +24,27 @@
     <item>
       <title>data</title>
       <link>https://www.fi.muni.cz/~xpicek/tags/data/</link>
-      <pubDate>Sat, 12 Aug 2023 19:09:42 +0200</pubDate>
+      <pubDate>Sun, 13 Aug 2023 23:35:20 +0200</pubDate>
       
       <guid>https://www.fi.muni.cz/~xpicek/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kniha</title>
+      <link>https://www.fi.muni.cz/~xpicek/tags/kniha/</link>
+      <pubDate>Sun, 13 Aug 2023 23:35:20 +0200</pubDate>
+      
+      <guid>https://www.fi.muni.cz/~xpicek/tags/kniha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rozbor</title>
+      <link>https://www.fi.muni.cz/~xpicek/tags/rozbor/</link>
+      <pubDate>Sun, 13 Aug 2023 23:35:20 +0200</pubDate>
+      
+      <guid>https://www.fi.muni.cz/~xpicek/tags/rozbor/</guid>
       <description></description>
     </item>
     
