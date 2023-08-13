@@ -43,6 +43,10 @@ params:
 
             - I find writing as a tool to organize my thoughts.
 
+            -
+
+            - You can contact me on jan.picek2@gmail.com.
+
     # socialIcons:
     #     - name: github
     #       url: "https://github.com/adityatelange/hugo-PaperMod"
@@ -70,9 +74,9 @@ markup:
 
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
+    # - identifier: contact
+    #   name: contact
+    #   url: /contact
     #   weight: 10
     - identifier: tags
       name: tags
